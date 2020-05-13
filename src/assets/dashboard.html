@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./favicon.ico">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <title>Pure JS Excel</title>
+</head>
+<body>
+    <div id="app">
+       <div class="db">
+            <div class="db__header">
+                <h1>Dashboard Excel</h1>
+            </div>
+            <div class="db__new">
+                <div class="db__view">
+                    <a href="" class="db__create">New <br> Table</a>
+                </div>
+            </div>
+            <div class="db__table db__view">
+                <div class="db__list-header">
+                    <span>Name</span>
+                    <span>Open date</span>
+                </div>
+                <ul class="db__list">
+                    <li class="db__record">
+                        <a href="">test table</a>
+                        <strong><script>document.write(new Date().toLocaleDateString())</script></strong>
+                    </li>
+                    <li class="db__record">
+                        <a href="">test table</a>
+                        <strong><script>document.write(new Date().toLocaleDateString())</script></strong>
+                    </li>
+                    <li class="db__record">
+                        <a href="">test table</a>
+                        <strong><script>document.write(new Date().toLocaleDateString())</script></strong>
+                    </li>
+                </ul>
+            </div>
+       </div>
+    </div>
+</body>
+</html>
